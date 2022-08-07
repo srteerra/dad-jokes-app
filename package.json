@@ -1,0 +1,23 @@
+{
+  "name": "resultadou2",
+  "version": "1.0.0",
+  "description": "Just a UT project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srteerra/dad-jokes-app.git"
+  },
+  "author": "Angel Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srteerra/dad-jokes-app/issues"
+  },
+  "homepage": "https://github.com/srteerra/dad-jokes-app#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  }
+}

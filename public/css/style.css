@@ -55,10 +55,7 @@ a {
 
 .main__title {
   text-align: center;
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  padding: 100px 0 0;
 }
 
 .main__title h1 {
@@ -72,18 +69,16 @@ a {
 }
 
 .joke__container {
-  /* width: 650px; */
+  width: 100%;
   min-width: 100px;
   max-width: 650px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   text-align: center;
+  margin: 0 auto;
+  padding: 100px 0;
 }
 
 .joke__display {
@@ -137,10 +132,6 @@ a {
 
 .desc__end {
   text-align: center;
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 @media (max-width: 700px) {
